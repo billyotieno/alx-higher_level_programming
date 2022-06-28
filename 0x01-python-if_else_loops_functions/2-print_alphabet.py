@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import string
-for alpha in string.ascii_lowercase:
-    print(alpha, end="")
+for i in range(ord('a'), ord('z') + 1):
+    print("{:s}".format(chr(i)), end="")
